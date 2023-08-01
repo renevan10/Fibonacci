@@ -1,0 +1,10 @@
+pip install pipenv
+pipenv shell
+pipenv install flask flask-sqlalchemy psycopg2 python-dotenv flask-cors
+
+Create Fibonacci table in POSTGRES instance
+
+run python
+from app import app
+from app import db
+db.create_all()
