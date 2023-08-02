@@ -1,10 +1,17 @@
-pip install pipenv
-pipenv shell
-pipenv install flask flask-sqlalchemy psycopg2 python-dotenv flask-cors
+Installation:
+- pip install pipenv
+- pipenv shell
+- pipenv install flask flask-sqlalchemy psycopg2 python-dotenv flask-cors
 
-Create Fibonacci table in POSTGRES instance
+Table setup
+- Create Fibonacci table in POSTGRES instance
+- run python
+    - from app import app
+    - from app import db
+    - db.create_all()
 
-run python
-from app import app
-from app import db
-db.create_all()
+Start backend server
+- flask run
+
+Start frontend
+- npm start
