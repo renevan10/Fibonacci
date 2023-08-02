@@ -1,7 +1,6 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { Container, Popover, PopoverHeader, PopoverBody } from "reactstrap";
-import { useEffect, useState } from "react";
+import { Container } from "reactstrap";
+import { useState } from "react";
 import GenerateForm from "./components/GenerateForm";
 import Results from "./components/Results";
 

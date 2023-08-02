@@ -1,17 +1,5 @@
 import React from "react";
-import {
-  Card,
-  CardBody,
-  CardHeader,
-  CardTitle,
-  Container,
-  Table,
-  Form,
-  FormGroup,
-  Input,
-  Label,
-  FormText,
-} from "reactstrap";
+import { Card, CardBody, CardHeader, CardTitle, Table } from "reactstrap";
 
 const Results = ({ results }) => {
   return (

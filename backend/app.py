@@ -29,8 +29,10 @@ def get_entry(n):
     n = int(n)
     res = []
     for i in range(1, n+1):
+        # Check if that sequence exists in db to avoid re-computing
         exists = bool(Sequence.query.filter_by(n=i).first())
         if exists == False:
+            # Edge case of n being 1 or 2
             if i == 1 or i == 2:
                 sequence = Sequence(i, 1)
                 db.session.add(sequence)

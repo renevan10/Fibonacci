@@ -7,12 +7,9 @@ import {
   CardHeader,
   CardTitle,
   Container,
-  Table,
   Form,
   FormGroup,
   Input,
-  Label,
-  FormText,
 } from "reactstrap";
 
 const GenerateForm = ({ setResults }) => {
